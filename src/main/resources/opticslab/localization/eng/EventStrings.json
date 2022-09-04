@@ -1,0 +1,41 @@
+{
+  "${modID}:EventID": {
+    "NAME": "Event Name",
+    "DESCRIPTIONS": [
+      "This is event text, generally used to describe what's happening.",
+      "#g~This~ #g~text~ #g~is~ #g~green~ #g~and~ #g~wavy.~",
+      "#r@RED@ #r@AND@ #r@VIBRATING@ #r@TEXT.@",
+      "#rRed #gGreen #yYellow #bBlue #pPurple. ~Wavy~ @vibrating.@",
+      "You have to mark every word individually.",
+      "You can also use [#ffffff]white[] hex color codes like this to color text.",
+      "This also works in card text! But not on keywords."
+    ],
+    "OPTIONS": [
+      "[Action Description] What you actually get.",
+      "[Denial] #rLose #r1 #rMax #rHP. Bad stuff is red.",
+      "[Acceptance] #gGain #gApotheosis. Good stuff is green.",
+      "[Leave]",
+      "Select card to remove. (You can also stick extra text like this in here.)"
+    ]
+  },
+  "${modID}:OpticsLab": {
+    "NAME": "Optics Lab",
+    "DESCRIPTIONS": [
+      "You've entered a lab. An excited scientist runs to you and says: NL \"You've come at just the right time! I'm on the verge of a major breakthrough and need your help.\" NL He gestures to a large glass pyramid on his desk. \"All I need is a material to test it on!\"",
+      "You offer a card. The scientist places it in front of the pyramid and turns on a focused #p~beam~ #p~of~ #p~light.~ The beam shines directly through the pyramid and onto the card. NL NL In an instant, #p~the~ #p~card~ #p~disappears~ #p~in~ #p~a~ #p~flash~ #p~of~ #p~light~ #p~of~ #p~every~ #p~colour!~ Once the cloud of bright smoke disappears, all that is left are #p~seven~ #p~shapes.~ NL NL \"This is incredible! The method works! As recompense, please partake in our success.\"",
+      "#r@\"You@ #r@small-minded@ #r@buffoon!\"@ yells the scientist, #r@\"This@ #r@science@ #r@will@ #r@progress@ #r@with@ #r@or@ #r@without@ #r@you!@ #r@Your@ #r@inability@ #r@to@ #r@explore@ #r@beyond@ #r@your@ #r@own@ #r@mind@ #r@dooms@ #r@you@ #r@to@ #r@failure!\"@ NL NL The scientist is clearly insane, so you delicately exit the lab.",
+      "\"Beautiful,\" says the scientist, \"I hope you carry this ",
+      " with you wherever you go.\" He then turns to his instruments, preparing for the next experiment. NL NL You leave feeling more ",
+      " of heart.",
+      "light"
+    ],
+    "OPTIONS": [
+      "[Curiosity] #gRemove #ga #gcard #gfrom #gyour #gdeck. #gSelect #gyour #greward.",
+      "[Leave] Refuse to help the scientist.",
+      "[Spectrum] #gReceive #gall #gseven #gDispersions.",
+      "[Singular Ray] #gReceive #ga #gRay #gof #gLight.",
+      "[Leave]",
+      "Choose a Card to Remove."
+    ]
+  }
+}

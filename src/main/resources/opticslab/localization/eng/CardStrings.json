@@ -1,0 +1,47 @@
+{
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "${modID}:DispersionR": {
+    "NAME": "Dispersion R",
+    "DESCRIPTION": "Deal !D! damage. NL Exhaust."
+  },
+  "${modID}:DispersionO": {
+    "NAME": "Dispersion O",
+    "DESCRIPTION": "Draw !M! cards. NL Exhaust."
+  },
+  "${modID}:DispersionY": {
+    "NAME": "Dispersion Y",
+    "DESCRIPTION": "Gain !B! Block. NL Exhaust."
+  },
+  "${modID}:DispersionG": {
+    "NAME": "Dispersion G",
+    "DESCRIPTION": "Exhaust up to !M! cards in your hand. NL Exhaust."
+  },
+  "${modID}:DispersionB": {
+    "NAME": "Dispersion B",
+    "DESCRIPTION": "Heal !M! HP. NL Exhaust."
+  },
+  "${modID}:DispersionI": {
+    "NAME": "Dispersion I",
+    "DESCRIPTION": "Lose !M! HP. Gain 1 Intangible. NL Exhaust."
+  },
+  "${modID}:DispersionV": {
+    "NAME": "Dispersion V",
+    "DESCRIPTION": "Apply !M! Weak and Vulnerable to all enemies. NL Exhaust."
+  },
+  "${modID}:RayOfLight": {
+  "NAME": "Ray of Light",
+  "DESCRIPTION": "Choose 1 of 3 Dispersions to add into your hand. NL Exhaust."
+  },
+  "${modID}:EXBurn": {
+    "NAME": "EX Burn",
+    "DESCRIPTION": "Night: Take !M! damage. NL Ethereal."
+  }
+}
