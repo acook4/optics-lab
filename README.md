@@ -2,7 +2,8 @@
 
 This mod adds a new event in the City to Slay the Spire, with 8 special cards to use!
 
-Link to Steam Workshop page will be provided once uploaded.
+The mod can be found in the Steam Workshop from this link:
+https://steamcommunity.com/sharedfiles/filedetails/?id=2858753003
 
 ---
 
