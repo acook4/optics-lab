@@ -1,5 +1,6 @@
 package opticslab;
 
+import com.badlogic.gdx.utils.GdxRuntimeException;
 import opticslab.cards.BaseCard;
 import opticslab.events.OpticsLab;
 import basemod.AutoAdd;
@@ -85,7 +86,12 @@ public class BasicMod implements
         */
         loadLocalization(defaultLanguage);
         if (!defaultLanguage.equals(getLangString())) {
-            loadLocalization(getLangString());
+            try {
+                loadLocalization(getLangString());
+            }
+            catch (GdxRuntimeException e) {
+                e.printStackTrace();
+            }
         }
     }
 
